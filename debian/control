@@ -3,10 +3,7 @@ Maintainer: Yury Usishchev <y.usishchev@contactless.ru>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.2
-Build-Depends:
 Package: hello
 Architecture: any
-Depends:
-Breaks:
 Description: Hello
 
