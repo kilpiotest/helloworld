@@ -11,4 +11,5 @@ clean:
 	$(RM) hello
 
 install:
+	mkdir -p $(DESTDIR)/usr/bin/
 	cp hello $(DESTDIR)/usr/bin/hello
