@@ -9,3 +9,6 @@ hello: hello.c
 
 clean:
 	$(RM) hello
+
+install:
+	cp hello $(DESTDIR)/usr/bin/hello
