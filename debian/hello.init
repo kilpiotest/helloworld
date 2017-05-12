@@ -1,12 +1,12 @@
 #!/bin/sh
 ### BEGIN INIT INFO
-# Provides:          wb-mqtt-knx
+# Provides:          hello
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Required-Start: $remote_fs, mosquitto, knxd
-# Required-Stop: $remote_fs, mosqutto
-# Short-Description: : Wiren Board MQTT KNX bridge
-# Description:       : Wiren Board MQTT KNX bridge
+# Required-Start: $rfemote_fs
+# Required-Stop: $remote_fs
+# Short-Description: : Hello
+# Description:       : Hello
 ### END INIT INFO
 
 # Author: Yury Usishchev <y.usishchev@contactless.ru>
@@ -18,8 +18,8 @@
 
 # PATH should only include /usr/* if it runs after the mountnfs.sh script
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
-DESC="Wiren Board MQTT KNX bridge"
-NAME=wb-mqtt-knx
+DESC="Hello"
+NAME=hello
 DAEMON=/usr/bin/$NAME
 DAEMON_ARGS=""
 PIDFILE=/var/run/$NAME.pid

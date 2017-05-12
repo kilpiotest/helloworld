@@ -1,13 +1,12 @@
-Source: wb-mqtt-knx
+Source: hello
 Maintainer: Yury Usishchev <y.usishchev@contactless.ru>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 9), pkg-config, g++, libwbmqtt-dev (>= 1.4), knxd-dev (>= 0.11.14), knxd-tools (>= 0.11.14)
-
-Package: wb-mqtt-knx
+Build-Depends:
+Package: hello
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libwbmqtt (>= 1.4), knxd-tools (>= 0.11.14), knxd (>= 0.11.14)
+Depends:
 Breaks:
-Description: Wiren Board MQTT to KNX gateway
+Description: Hello
 
